@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'roboto', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .header-Resto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color:#fff;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  
+  .logo:hover {
+    color: #ff0000; 
+  }
+  
+  .Menu-Resto {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .Menu-Resto li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .Menu-Resto a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .Menu-Resto ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  .Menu-Resto li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .Menu-Resto li:hover ul {
+    display: block;
+    padding-top: 20px;
+    border-radius:7px;
+  }
+  
+  .Menu-Resto ul li {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .Menu-Resto ul li:last-child{
+    margin-bottom: 12px;
+  }
+  
+  .Menu-Resto ul li a {
+    padding: 10px;
+  }
+  
+  .image-container {
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 262px;
+  }
+  
+  .jugurta, .Abderraouf{
+    color: rgb(255, 68, 0);
+  }
+  
+  .Menu-Resto a:hover {
+    color: rgb(255, 68, 0);
+  }
+  
+  .logo-burger {
+    position: absolute;
+    top:5.4%;
+    left: 0px;
+    transform: translateY(-50%) scale(0.7); 
+    transition: transform 0.3s ease; 
+    
+  }
+   
+  
+  .logo-burger:hover {
+    transform: translateY(-50%) scale(0.8) rotate(10deg); 
+    filter: grayscale(100%) brightness(80%); 
+  }
