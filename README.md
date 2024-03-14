@@ -20,17 +20,17 @@ l'atmosphère chaleureuse et décontractée de notre restaurant.
 ## Captures d'écran
 
 ![logo](image/Le-Palais(3).png)
-![logo](a-propos-de-nous-burger.jpg)
-![logo](bg-chiken.png)
-![logo](bg-classique1.jpg)
-![logo](image-css.jpg)
-![logo](img--inscri.png)
-![logo](leoverdose.png)
-![logo](nosjoindre.jpg)
-![logo](qsn-bg.png)
-![logo](special-chiken.png)
-![logo](special-h.png)
-![logo](tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg)
+![logo](image/a-propos-de-nous-burger.jpg)
+![logo](image/bg-chiken.png)
+![logo](image/bg-classique1.jpg)
+![logo](image/image-css.jpg)
+![logo](image/img--inscri.png)
+![logo](image/leoverdose.png)
+![logo](image/nosjoindre.jpg)
+![logo](image/qsn-bg.png)
+![logo](image/special-chiken.png)
+![logo](image/special-h.png)
+![logo](image/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg)
 
 
 ## Auteurs 
