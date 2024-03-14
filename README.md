@@ -8,7 +8,7 @@ l'atmosphère chaleureuse et décontractée de notre restaurant.
 ## Fonctionnalités
 - [ ] Page d'accueil avec présentation de notre projet
 - [ ] Qui sommes-nous
-- [ ] Menu
+- [ ] Menu (Burger Classique / Burger Spécialité)
 - [ ] Contact
 - [ ] Inscription
 - [ ] Nous joindre
