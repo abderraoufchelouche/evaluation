@@ -13,7 +13,7 @@ l'atmosphère chaleureuse et décontractée de notre restaurant.
 - [ ] Inscription
 - [ ] Nous joindre
 
-## Technologies Utilisées
+## language Utilisées
 - HTML5
 - CSS 
 
