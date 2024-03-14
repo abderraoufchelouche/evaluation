@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-Resto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+.left-content {
+    display:flex;
+}
+
+.Menu-Resto {
+    list-style-type: none;
+    display: flex;
+}
+
+.Menu-Resto li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.Menu-Resto a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Menu-Resto a:hover {
+    color: rgb(255, 68, 0);
+}
+
+.Menu-Resto ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.Menu-Resto li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+.Menu-Resto li:hover ul {
+    display: block;
+    padding-top: 20px;
+    border-radius:7px;
+}
+
+.Menu-Resto ul li {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.Menu-Resto ul li:last-child{
+    margin-bottom: 12px;
+}
+
+.Menu-Resto ul li a {
+    padding: 10px;
+}
+
+.image-container {
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+#qui-sommes-nous {
+    text-align: center;
+    position: relative;
+}
+
+#qui-sommes-nous{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#berger-classique {
+    text-align: center;
+    
+}
+
+.bg-classique-h2{
+    margin: 50px;
+    margin-top: 50px;
+}
+
+#berger-classique h1 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+}
+
+.burger-images {
+    display: flex;
+    justify-content: center;
+}
+
+
+#berger-Vegetarien {
+    text-align: center;
+}
+
+#berger-Vegetarien h2 {
+    margin-bottom: 20px;
+}
+
+#berger-Specialite {
+    text-align: center;
+}
+
+#berger-Specialite h3 {
+    margin-bottom: 30px;
+}
+#berger-classique h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 50px;
+}
+
+#berger-Vegetarien h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 50px;
+}
+
+#berger-Specialite h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin: 50px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    margin: 0 20px;
+}
+
+.info-item h3 {
+    color: #333;
+}
+
+.info-item p {
+    margin: 5px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: auto;
+}
+
+
+.burger-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+#contact {
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+.info-item {
+  margin: 0 20px;
+}
+
+.info-item h3 {
+  color: #333;
+}
+
+.info-item p {
+  margin: 5px 0;
+}
+
+label {
+  display: block;
+  margin-bottom:auto;
+}
+.Menu-Resto a:hover {
+  color: rgb(255, 68, 0); 
+}
+#qui-sommes-nous {
+    padding-top: 100px;
+}
+
+
+.logo-burger {
+    position: absolute;
+    top: 5.4%;
+    left: 0px;
+    transform: translateY(-50%) scale(0.7);
+    transition: transform 0.3s ease;
+
+}
+
+.abderraouf, .jugurta{
+    display: inline ;
+    color:rgba(255, 68, 0, 0.664) ;
+}
+
+
+.logo-burger:hover {
+    transform: translateY(-50%) scale(0.8) rotate(10deg);
+    filter: grayscale(100%) brightness(80%);
+}
+
+/* personaliser les article dans le menu */
+
+.bg-classique1{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    height: 400px;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.bg-classique1:hover{
+    transform: translateY(-3%) ; 
+}
+
+.bg-classique2{
+    height: 400px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-classique2:hover{
+    transform: translateY(-3%) ; 
+}
+
+
+.bg-classique3{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    height: 400px;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.bg-classique3:hover{
+    transform: translateY(-3%) ; 
+}
+
+
+.special-ithem{
+    height: 400px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.special-ithem:hover{
+    transform: translateY(-3%) ;
+}
+
+/* ajuster la taille des imaages */
+
+.bg-classique1 .restaurant-image1{
+    width:200px ;
+    height: 200px;
+    margin-top: 10px;
+}
+
+
+.bg-classique3 .restaurant-image1{
+  width:200px ;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.bg-classique2 .restaurant-image1{
+    width:200px ;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.special-ithem .special-image{
+    width:200px ;
+    height: 190px;
+    margin-top: 10px;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+.bg-classique2 p, .bg-classique1 p, .bg-classique3 p {
+    font-family: "roboto" , cursive;
+    font-weight: 400;
+}
+
+.nom{
+    font-size:x-large;
+}
+
+h5{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* la discription des ithem */
+
+.bg-classique1 .item-description{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.bg-classique2 .item-description{
+    padding-top: 15px;
+    padding-bottom: 10px;
+   
+}
+
+.bg-classique3 .item-description{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.special-ithem .item-description{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: smaller; 
+}
+
+button{
+    padding: 10px;
+    font-family: "roboto" , cursive;
+    color: #fff;
+    background-color: #333;
+    margin-top: 5px;
+}
+
+button:hover{
+    color: rgb(255, 68, 0);
+}
+
+
+
