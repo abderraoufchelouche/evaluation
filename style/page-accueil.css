@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: 'roboto', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+   
+  
+  .container {
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .header-Resto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  .logo:hover {
+    color: #ff0000;
+  }
+  
+  .Menu-Resto {
+    list-style-type: none;
+    display: flex;
+  } 
+  
+   .Menu-Resto li {
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .Menu-Resto a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .Menu-Resto ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  .Menu-Resto li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .Menu-Resto li:hover ul {
+    display: block;
+    padding-top: 20px;
+    border-radius:7px;
+  }
+  
+  .Menu-Resto ul li {
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .Menu-Resto ul li:last-child{
+    margin-bottom: 12px;
+  }
+  
+  .Menu-Resto ul li a {
+    padding: 10px;
+  }
+  
+  .Menu-Resto ul li a {
+    padding: 10px;
+  }
+  
+  .image-container {
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .jugurta, .Abderraouf{
+    color: rgb(255, 68, 0);
+  }
+  
+  #qui-sommes-nous {
+    text-align: center;
+    position: relative;
+  }
+  
+  #qui-sommes-nous .restaurant-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #qui-sommes-nous p {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    color: #fff;
+    padding: 20px;
+    padding-left: 20px;
+    max-width: 80%;
+    text-align: center;
+    font-size: larger;
+    margin-right: 100px;
+  }
+  
+  .qui-sommes-nous>h2{
+    position:flex;
+    display: inline;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    justify-content: center;
+    
+  }
+  
+  .psn-photo{
+    display: inline;
+    height: 60px;
+    width: 60px;
+    
+  }
+  
+  
+  .Menu-Resto li:last-child {
+    margin-right: 0;
+  }
+  #berger-classique {
+    text-align: center;
+    display: flex; 
+    align-items:normal;
+  }
+  #berger-classique img {
+    width: 20px; 
+    height: auto;
+    width: 400px; 
+    margin:15%;
+    border-radius: 50%; 
+    
+  }
+  
+  #berger-Vegetarien {
+    text-align: center; 
+  }
+  
+  .burger-images {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px; 
+  }
+  
+  .burger-images img {
+    width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+  }
+  .burger-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .burger-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  #contactez-nous {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .info-item {
+    margin: 0 20px;
+  }
+  
+  .info-item h3 {
+    color: #333;
+  }
+  
+  .info-item p {
+    margin: 5px 0;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom:auto;
+  }
+  
+  .Menu-Resto a:hover {
+    color: rgb(255, 68, 0); 
+  }
+  
+  .logo-burger {
+    position: absolute;
+    top:5.4%;
+    left: 0px;
+    transform: translateY(-50%) scale(0.7); 
+    transition: transform 0.3s ease; 
+    
+  }
+  
+  .logo-burger:hover {
+    transform: translateY(-50%) scale(0.8) rotate(10deg); 
+    filter: grayscale(100%) brightness(80%); 
+  }
+  
+  
+  
+  
